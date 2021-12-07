@@ -1,0 +1,102 @@
+body{
+    background: url(kepek/hatter.jpg);
+}
+
+main{
+    background-color:white;
+    width: 1000px;
+    margin: auto;
+    grid-template-areas: "H H H H"
+                         "N A A AS"
+                         "FO FO FO FO";
+    display: grid;
+}
+
+
+header{
+    background: url(kepek/fejlec.jpg);
+    grid-area: H;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    grid-area: N;
+    color: white;
+    width: 200px;
+}
+
+nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+
+}
+
+article{
+    grid-area: A;
+
+}
+
+section{
+    grid-area: S;
+}
+
+aside{
+    grid-area: AS;
+    width: 325px;
+    border: 1px solid black;
+}
+
+footer{
+    grid-area: FO;
+
+}
+
+.gombok{
+    background-color: #008DE8;
+    width: 150px;
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+}
+
+div.polaroid {
+    width: 184px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  
+
+.jobbradol{
+    float: left;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+  }
+  
+.balradol{
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+  }
+
+.elso{
+    padding: 20px;
+}
+
+.masodik{
+    padding-top: 100px;
+    padding: 20px;
+}
